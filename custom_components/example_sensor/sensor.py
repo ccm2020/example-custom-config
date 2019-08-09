@@ -5,6 +5,7 @@ from homeassistant.helpers.entity import Entity
 
 def setup_platform(hass, config, add_entities, discovery_info=None):
     """Set up the sensor platform."""
+    """what's this"""
     add_entities([ExampleSensor()])
 
 
